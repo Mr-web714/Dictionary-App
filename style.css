@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 19vh;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(45deg, rgb(76, 76, 188), rgb(9, 240, 240));
+    color: rgba(4, 4, 4, 0.877);
+    border-radius: 2px;
+    margin-bottom: 1rem;
+
+}
+.search {
+    height: 3rem;
+}
+.search input {
+    height: 1rem;
+    width: 15rem;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    border: none;
+}
+.search button {
+    padding: 0.5rem;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgb(233, 228, 228), rgb(12, 83, 196));
+    color: rgb(11, 11, 11);
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+.search button:hover {
+    box-shadow: -1px 1px 2px rgb(10, 10, 10);
+    translate: -1px 1px 1px;
+    overflow: hidden;
+}
+.content {
+    padding: 1rem;
+    height: calc(100vh - 27vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.translate {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    overflow: hidden;
+    justify-content: space-between;
+    flex: 1;
+    border: 2px solid black;
+    padding: 0.2rem 0.5rem;
+    display: none;
+    
+}
+.box input {
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 1.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+
+
+
+.foot {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background: linear-gradient(45deg, rgb(76, 76, 188), rgb(9, 240, 240));
+    color: rgba(4, 4, 4, 0.877);
+    position: sticky;
+    bottom: 0;
+
+}
+.follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55%;
+}
+.anc {
+    display: flex;
+    justify-content: space-between;
+}
